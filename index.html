@@ -59,31 +59,111 @@
       </a-entity>
 
       <!-- Right figure -->
+      <!-- Right figure -->
       <a-entity>
+        <!-- body -->
         <a-box 
           position="2 0.5 -4" 
           depth="0.05" 
           height="1.5" 
-          width="0.8" 
+          width="1.35" 
           color="#00CCCC">
         </a-box>
-        <a-sphere 
+        <!-- arms -->
+        <a-box 
+          position="1.2 1.7 -4" 
+          depth="0.05" 
+          height="2" 
+          width="0.5"
+          rotation="0 0 30"
+          color="#00CCCC">
+        </a-box>
+        <a-box 
+          position="2.6 2 -4" 
+          depth="0.05" 
+          height="1.75" 
+          width="0.5"
+          rotation="0 0 -10"
+          color="#00CCCC">
+        </a-box>
+        <!-- hands -->
+        <a-circle
+          position="0.7 2.6 -4" 
+          radius="0.35" 
+          scale="1.1 0.75 1"
+          depth = "0.7"
+          rotation="0 0 -10"
+          color="#00CCCC">
+        </a-circle>
+        <a-circle
+          position="2.8 2.7 -4" 
+          radius="0.35" 
+          scale="1.1 0.75 1"
+          rotation="0 0 -10"
+          depth = "0.05"
+          color="#00CCCC">
+        </a-circle>
+        <!-- head -->
+        <a-sphere
           position="2 1.5 -4" 
           radius="0.5" 
           color="#00CCCC">
         </a-sphere>
+        <!-- legs -->
         <a-box 
-          position="2.75 -0.5 -4" 
+          position="2.3 -0.5 -4" 
           depth="0.05" 
-          height="0.8" 
-          width="1.5" 
+          height="0.6" 
+          width="0.9"
+          rotation = "0 0 80"
+          color="#00CCCC">
+        </a-box>
+        <a-box 
+          position="1.6 -0.5 -4" 
+          depth="0.05" 
+          height="0.6" 
+          width="0.9"
+          rotation = "0 0 80"
+          color="#00CCCC">
+        </a-box>
+        <a-box 
+          position="2.33 -1.1 -4" 
+          depth="0.05" 
+          height="0.6" 
+          width="0.7"
+          rotation = "0 0 110"
+          color="#00CCCC">
+        </a-box>
+        <a-box 
+          position="1.58 -1 -4" 
+          depth="0.05" 
+          height="0.6" 
+          width="0.44"
+          rotation = "0 0 110"
+          color="#00CCCC">
+        </a-box>
+        <!-- feet -->
+        <a-box 
+          position="2.3 -1.5 -4" 
+          depth="0.05" 
+          height="0.6" 
+          width="0.8"
+          rotation = "0 0 0"
+          color="#00CCCC">
+        </a-box>
+        <a-box 
+          position="1.3 -1.5 -4" 
+          depth="0.05" 
+          height="0.6" 
+          width="0.8"
+          rotation = "0 0 0"
           color="#00CCCC">
         </a-box>
       </a-entity>
 
       <!-- Ground -->
       <a-plane 
-        position="0 -1.5 -4" 
+        position="0 -1.7 -4" 
         rotation="-90 0 0" 
         width="10" 
         height="1" 
